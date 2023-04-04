@@ -1,7 +1,6 @@
-## e67e4f22-delta-lite
+## 484e04a0-delta-lite
 
-- Since we are tracing app process start by `logcat` and SuList is started on boot, we don't need to kill `usap`
-- Fix rescanning zygote process
+- Clean more code
 
 ### Lite version of Magisk Delta'
 
