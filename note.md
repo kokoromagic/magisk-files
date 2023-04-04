@@ -1,11 +1,16 @@
-Lite version of Magisk Delta
-- MagiskHide in whitelist mode: SuList (also called Dynamic mount).
+## e67e4f22-delta-lite
+
+- Since we are tracing app process start by `logcat` and SuList is started on boot, we don't need to kill `usap`
+- Fix rescanning zygote process
+
+### Lite version of Magisk Delta'
+
+- Sulist - MagiskHide in whitelist mode (also called Dynamic mount)
 - Use system logcat to detect start up app processes instead of ptrace. Please test `su -c logcat -b events -s am_proc_start` before installing. **If logcat is not working normally, root access will be lost.**
-- SuList is forcefully enabled and Magisk is hidden from all processes by default.
+- SuList is forcefully enabled and cannot be disabled. Magisk is hidden from all app processes by default.
 - SuList CLI: `magisk --sulist`
-- Support remounting system as read-write without breaking mount
-- SuList only. Zygisk function is not supported. Purpose is to reduce magisk code and binary size.
-- Support partial modules, only apps that are on sulist will have module mounted. System Server, SystemUI and Settings are whitelist-ed by default.
+- Support remounting system as read-write without breaking mount.
+- Support SuList only. Zygisk function is cut off to reduce magisk code and binary size.
+- Support partial modules, only apps that are on sulist will have all modules mounted. System Server, SystemUI and Settings are whitelist-ed by default.
 - In most case, only main process is needed to be added to SuList, not all processes.
-- Many code lines have been removed.
-- Open source. Internal release. It is only released in discussion group.
+- Open source and internal version. It is only released in discussion group.
