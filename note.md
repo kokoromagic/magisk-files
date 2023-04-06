@@ -1,6 +1,7 @@
-## 484e04a0-delta-lite
+## 194d9ea2-delta-lite
 
-- Clean more code
+- Refactor UI
+- Fix Logcat tracing
 
 ### Lite version of Magisk Delta'
 
