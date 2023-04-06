@@ -1,7 +1,6 @@
-## 194d9ea2-delta-lite
+## d930b3b1-delta-lite
 
-- Refactor UI
-- Fix Logcat tracing
+- Refactor SU mount
 
 ### Lite version of Magisk Delta'
 
