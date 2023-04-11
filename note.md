@@ -12,6 +12,10 @@
 
 ## Changelog
 
+### dae0693c-delta-lite
+
+- Introduce theme
+
 ### 27773b9e-delta-lite
 
 - Show SuList notification correctly
