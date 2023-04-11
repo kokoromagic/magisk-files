@@ -14,7 +14,7 @@
 
 ### dae0693c-delta-lite
 
-- Introduce theme
+- Introduce new UI
 
 ### 27773b9e-delta-lite
 
