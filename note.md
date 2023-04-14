@@ -12,6 +12,12 @@
 
 ## Changelog
 
+### 38d98145-delta-lite
+
+- Don't care about Zygisk
+- Use `/data/adb/modules` instead of `MAGISKTMP/.magisk/modules`
+- Fix clean hidelist option doesn't work
+
 ### dae0693c-delta-lite
 
 - Introduce new UI
