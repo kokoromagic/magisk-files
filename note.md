@@ -12,6 +12,11 @@
 
 ## Changelog
 
+### 99c0daf7-delta-lite
+
+- Better hiding Magisk
+- Refactor mounting mirror again (Prepare for v26)
+
 ### 38d98145-delta-lite
 
 - Don't care about Zygisk
