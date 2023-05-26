@@ -12,6 +12,10 @@
 
 ## Changelog
 
+### 977a4546-delta-lite
+
+- Enable SuList unconditionally
+
 ### cb2f1d74-delta-lite
 
 - Better hiding Magisk
