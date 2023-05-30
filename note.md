@@ -12,6 +12,10 @@
 
 ## Changelog
 
+### ac67cd10-delta-lite
+
+- Refactor magisk.rc
+
 ### 5f3a89e9-delta-lite
 
 - Fix SuList mount nosuid issue
