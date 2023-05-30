@@ -12,6 +12,11 @@
 
 ## Changelog
 
+### 5f3a89e9-delta-lite
+
+- Fix SuList mount nosuid issue
+- Make magic mount read-only
+
 ### 977a4546-delta-lite
 
 - Enable SuList unconditionally
