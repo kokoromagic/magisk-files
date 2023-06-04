@@ -12,6 +12,10 @@
 
 ## Changelog
 
+### 3e1b2387-delta
+
+- Fix the problem that SuList is being detected
+
 ### ac67cd10-delta-lite
 
 - Refactor magisk.rc
